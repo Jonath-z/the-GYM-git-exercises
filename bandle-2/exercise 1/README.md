@@ -29,3 +29,26 @@ To https://github.com/Jonath-z/the-GYM-git-exercises.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 z-001@z001-ThinkPad-T460s:~/the-GYM-git-exercises.git$
 ```
+
+## After renaming README
+
+```bash
+z-001@z001-ThinkPad-T460s:~/the-GYM-git-exercises.git$ git add .
+z-001@z001-ThinkPad-T460s:~/the-GYM-git-exercises.git$ git commit -m "readme renamed to README"
+[ft/bundle-2 6868ebd] readme renamed to README
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ rename bandle-2/exercise 1/{readme.md => README.md} (100%)
+ rename bundle-1/exercice 1/{readme.md => README.md} (100%)
+ rename bundle-1/exercise 2/{readme.md => README.md} (100%)
+z-001@z001-ThinkPad-T460s:~/the-GYM-git-exercises.git$ git push origin ft/bundle-2
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 653 bytes | 72.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Jonath-z/the-GYM-git-exercises.git
+   b7c52e1..6868ebd  ft/bundle-2 -> ft/bundle-2
+z-001@z001-ThinkPad-T460s:~/the-GYM-git-exercises.git$
+```
